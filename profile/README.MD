@@ -18,5 +18,6 @@ Instead of focusing on specific trackers or ad slots, ProtoConsent lets you expr
 
 > Status: early alpha, meant for exploration and feedback, not production use yet (baseline v0.1.0). Visuals and logo are provisional and will likely change as the project matures.
 
-Main repository: [https://github.com/ProtoConsent/ProtoConsent](https://github.com/ProtoConsent/ProtoConsent)  
-Project website: [https://www.protoconsent.org](https://www.protoconsent.org)  
+**Main repository**: [https://github.com/ProtoConsent/ProtoConsent](https://github.com/ProtoConsent/ProtoConsent)
+
+**Project website**: [https://www.protoconsent.org](https://www.protoconsent.org)  
