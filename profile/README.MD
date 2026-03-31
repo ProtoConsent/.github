@@ -14,7 +14,7 @@ ProtoConsent is a browser extension that lets you control how websites may use y
 
 No central server, no tracking, no sharing of personal data. Preferences are enforced at the network level, per site, entirely from your browser. 
 
-> Status: early alpha (v0.1.0), meant for exploration and feedback, not production use yet.
+> Status: Not yet in extension stores — install locally in developer mode on Chromium-based browsers. Firefox support planned.
 
 **Main repository**: [https://github.com/ProtoConsent/ProtoConsent](https://github.com/ProtoConsent/ProtoConsent)
 
