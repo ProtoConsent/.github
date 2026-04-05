@@ -4,6 +4,8 @@
   <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/logo/protoconsent_logo.png" alt="ProtoConsent logo" width="160">
 </p>
 
+<p align="center"><strong>One place to control how every website uses your data.</strong></p>
+
 <p align="center"><em>User‑side, purpose‑based consent for the web.</em></p>
 
 <p align="center">
@@ -14,7 +16,7 @@ ProtoConsent is a browser extension that lets you control how websites may use y
 
 No central server, no tracking, no sharing of personal data. Preferences are enforced at the network level, per site, entirely from your browser.
 
-> Not yet in extension stores — install locally in developer mode on Chromium‑based browsers. Firefox support planned.
+> Pending review in Chrome Web Store, Edge Add-ons, and Opera Addons. In the meantime, install locally in developer mode on any Chromium-based browser. Firefox support planned.
 
 **Main repository:** [ProtoConsent/ProtoConsent](https://github.com/ProtoConsent/ProtoConsent)
 
