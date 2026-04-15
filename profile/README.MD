@@ -41,7 +41,7 @@ No central server, no tracking, no sharing of personal data. Preferences are enf
 |------|-------------|
 | [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) | Browser extension, SDK, protocol spec, and documentation |
 | [data](https://github.com/ProtoConsent/data) | Pre-built blocklists, CMP signatures, and enhanced protection lists (CDN) |
-| [ProtoConsent-demo](https://github.com/ProtoConsent/ProtoConsent-demo) | Demo site with live SDK test and `.well-known` declaration |
+| [demo](https://github.com/ProtoConsent/demo) | Demo site with live SDK test and `.well-known` declaration |
 | [validate-action](https://github.com/ProtoConsent/validate-action) | GitHub Action + CLI to validate `.well-known/protoconsent.json` |
 
 ### Links
