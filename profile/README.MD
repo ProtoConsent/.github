@@ -16,9 +16,11 @@
   <img src="https://img.shields.io/badge/firefox-planned-lightgrey?logo=firefox&logoColor=white" alt="Firefox planned">
 </p>
 
-ProtoConsent is a browser extension that lets you control how websites may use your data, expressed in terms of purposes (functional, analytics, ads, personalisation, third-party services, advanced tracking) rather than specific trackers or domains.
+ProtoConsent is a browser extension that lets you control how websites may use your data, expressed in terms of purposes (functional, analytics, ads, personalisation, third-party services, advanced tracking) rather than specific trackers or domains. Not a full ad blocker, not a CMP: a personal consent control panel that lives in the browser and can coexist with existing blockers and consent tools.
 
-No central server, no tracking, no sharing of personal data. Preferences are enforced at the network level, per site, entirely from your browser.
+It works in two operating modes: **Standalone** (default) enforces purpose-based blocking directly. **ProtoConsent Mode** delegates blocking to an external ad blocker while ProtoConsent provides purpose attribution, signal observability, and consent banner auto-response - turning any blocker into a purpose-aware system.
+
+No central server, no tracking, no sharing of personal data. Everything stays in your browser.
 
 <p align="center">
   <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/screenshots/popup-profile-dark.png" alt="ProtoConsent popup" width="360">
@@ -28,8 +30,9 @@ No central server, no tracking, no sharing of personal data. Preferences are enf
 
 ### Highlights
 
-- **Two operating modes**: Standalone enforces blocking directly. ProtoConsent Mode delegates to your existing blocker and adds purpose attribution - turning any ad blocker into a purpose-aware system.
+- **Two operating modes**: Standalone enforces purpose-based blocking directly. ProtoConsent Mode delegates to your existing blocker and adds purpose attribution and signal observability - turning any ad blocker into a purpose-aware system.
 - **Consent banner auto-response**: 31 CMP signatures suppress cookie popups based on your preferences - no DOM clicks, no waiting for the banner.
+- **Per-site profiles and purpose toggles**: assign a trust level per site and refine individual purposes. Curated blocklists with 58K+ domains enforce your choices at the network level.
 - **Site declarations**: websites can publish `.well-known/protoconsent.json` to declare their data practices. Open protocol with [spec](https://github.com/ProtoConsent/ProtoConsent/blob/main/design/spec/protoconsent-well-known.md), [JSON Schema](https://protoconsent.org/schema/v0.2.json), [validator](https://protoconsent.org/validate.html), and [GitHub Action](https://github.com/ProtoConsent/validate-action).
 - **JavaScript SDK** (MIT) for web pages to query user preferences via `protoconsent.get('analytics')`.
 
@@ -40,7 +43,7 @@ No central server, no tracking, no sharing of personal data. Preferences are enf
 | Repo | Description |
 |------|-------------|
 | [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) | Browser extension, SDK, protocol spec, and documentation |
-| [data](https://github.com/ProtoConsent/data) | Pre-built blocklists, CMP signatures, and enhanced protection lists (CDN) |
+| [data](https://github.com/ProtoConsent/data) | Curated purpose-based lists, CMP signatures, and enhanced protection lists (CDN) |
 | [demo](https://github.com/ProtoConsent/demo) | Demo site with live SDK test and `.well-known` declaration |
 | [validate-action](https://github.com/ProtoConsent/validate-action) | GitHub Action + CLI to validate `.well-known/protoconsent.json` |
 
