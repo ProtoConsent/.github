@@ -18,7 +18,7 @@
 
 ProtoConsent is a browser extension that lets you control how websites may use your data, expressed in terms of purposes (functional, analytics, ads, personalisation, third-party services, advanced tracking) rather than specific trackers or domains. Not a full ad blocker, not a CMP: a personal consent control panel that lives in the browser and can coexist with existing blockers and consent tools.
 
-It works in two operating modes: **Standalone** (default) enforces purpose-based blocking directly. **ProtoConsent Mode** delegates blocking to an external ad blocker while ProtoConsent provides purpose attribution, signal observability, and consent banner auto-response - turning any blocker into a purpose-aware system.
+It works in two operating modes: **Blocking** (default) enforces purpose-based blocking directly. **Monitoring** delegates blocking to an external ad blocker while ProtoConsent provides purpose attribution, signal observability, and consent banner auto-response - turning any blocker into a purpose-aware system.
 
 No central server, no tracking, no sharing of personal data. Everything stays in your browser.
 
@@ -30,7 +30,7 @@ No central server, no tracking, no sharing of personal data. Everything stays in
 
 ### Highlights
 
-- **Two operating modes**: Standalone enforces purpose-based blocking directly. ProtoConsent Mode delegates to your existing blocker and adds purpose attribution and signal observability - turning any ad blocker into a purpose-aware system.
+- **Two operating modes**: Blocking enforces purpose-based blocking directly. Monitoring delegates to your existing blocker and adds purpose attribution and signal observability - turning any ad blocker into a purpose-aware system.
 - **Consent banner auto-response**: 31 CMP signatures suppress cookie popups based on your preferences - no DOM clicks, no waiting for the banner.
 - **Per-site profiles and purpose toggles**: assign a trust level per site and refine individual purposes. Curated blocklists with 58K+ domains enforce your choices at the network level.
 - **Site declarations**: websites can publish `.well-known/protoconsent.json` to declare their data practices. Open protocol with [spec](https://github.com/ProtoConsent/ProtoConsent/blob/main/design/spec/protoconsent-well-known.md), [JSON Schema](https://protoconsent.org/schema/v0.2.json), [validator](https://protoconsent.org/validate.html), and [GitHub Action](https://github.com/ProtoConsent/validate-action).
