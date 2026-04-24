@@ -36,7 +36,14 @@ No central server, no tracking, no sharing of personal data. Everything stays in
 - **Site declarations**: websites can publish `.well-known/protoconsent.json` to declare their data practices. Open protocol with [spec](https://github.com/ProtoConsent/ProtoConsent/blob/main/design/spec/protoconsent-well-known.md), [JSON Schema](https://protoconsent.org/schema/v0.2.json), [validator](https://protoconsent.org/validate.html), and [GitHub Action](https://github.com/ProtoConsent/validate-action).
 - **JavaScript SDK** (MIT) for web pages to query user preferences via `protoconsent.get('analytics')`.
 
-> Pending review in Chrome Web Store, Edge Add-ons, and Opera Addons. In the meantime, install locally in developer mode on any Chromium-based browser.
+<p align="center">
+  <a href="https://microsoftedge.microsoft.com/addons/detail/protoconsent/djghmcahfjgmeiocpgkdgengofconfoo"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/microsoft-edge-add-ons-badge.png" alt="Get it from Microsoft Edge" height="56"></a>
+  &nbsp;
+  <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/chrome.svg" alt="Chrome" height="18"> <em>Chrome Web Store - in review</em>
+  &nbsp;&nbsp;
+  <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/opera.svg" alt="Opera" height="18"> <em>Opera Addons - in review</em>
+</p>
+<p align="center">You can also install locally in developer mode on any Chromium-based browser.</p>
 
 ### Repositories
 
