@@ -51,7 +51,7 @@ A personal consent control panel that lives in the browser. Not a full ad blocke
 ### Purpose-based blocklists
 
 <p align="center">
-  <img src="https://img.shields.io/badge/domains-185K+-blue" alt="185K+ domains">
+  <img src="https://img.shields.io/badge/domains-250K+-blue" alt="250K+ domains">
   <img src="https://img.shields.io/badge/purposes-6-green" alt="6 purposes">
   <img src="https://img.shields.io/badge/formats-5-orange" alt="5 formats">
   <img src="https://img.shields.io/badge/updated-weekly-brightgreen" alt="Updated weekly">
@@ -78,7 +78,7 @@ See the [data repo](https://github.com/ProtoConsent/data) for download links and
 | Repo | Description |
 |------|-------------|
 | [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) | Browser extension, SDK, protocol spec, and documentation |
-| [data](https://github.com/ProtoConsent/data) | Purpose-based tracker blocklists in 5 formats - 185K+ domains, updated weekly |
+| [data](https://github.com/ProtoConsent/data) | Purpose-based tracker blocklists in 5 formats - 250K+ domains, updated weekly |
 | [demo](https://github.com/ProtoConsent/demo) | Demo site with live SDK test and `.well-known` declaration |
 | [validate-action](https://github.com/ProtoConsent/validate-action) | GitHub Action + CLI to validate `.well-known/protoconsent.json` |
 
