@@ -79,6 +79,7 @@ See the [data repo](https://github.com/ProtoConsent/data) for download links and
 |------|-------------|
 | [ProtoConsent](https://github.com/ProtoConsent/ProtoConsent) | Browser extension, SDK, protocol spec, and documentation |
 | [data](https://github.com/ProtoConsent/data) | Purpose-based tracker blocklists in 5 formats - 250K+ domains, updated weekly |
+| [protoconsent.org](https://github.com/ProtoConsent/protoconsent.org) | Project website, blog, validator, generator, and directory |
 | [demo](https://github.com/ProtoConsent/demo) | Demo site with live SDK test and `.well-known` declaration |
 | [validate-action](https://github.com/ProtoConsent/validate-action) | GitHub Action + CLI to validate `.well-known/protoconsent.json` |
 
