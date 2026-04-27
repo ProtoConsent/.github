@@ -8,6 +8,11 @@
 
 <p align="center"><em>User-side, purpose-based consent for the web</em></p>
 
+<p align="center">
+  <a href="https://github.com/ProtoConsent/ProtoConsent"><strong>Browser extension</strong></a> &middot; 
+  <a href="https://github.com/ProtoConsent/data"><strong>Blocklists</strong></a>
+</p>
+
 ProtoConsent organizes privacy around **purposes** instead of individual trackers or domains. The project has two main outputs: a browser extension for end users and purpose-based blocklists for any tool.
 
 No central server, no tracking, no sharing of personal data.
