@@ -22,18 +22,19 @@ No central server, no tracking, no sharing of personal data.
 ### Browser extension
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.5.6-blue" alt="version 0.5.6">
+  <img src="https://img.shields.io/badge/version-0.6-blue" alt="version 0.6">
   <img src="https://img.shields.io/github/license/ProtoConsent/ProtoConsent" alt="GPL-3.0+">
   <img src="https://img.shields.io/badge/manifest-v3-green" alt="Manifest V3">
   <img src="https://img.shields.io/badge/chromium-supported-brightgreen?logo=googlechrome&logoColor=white" alt="Chromium">
   <img src="https://img.shields.io/badge/firefox-planned-lightgrey?logo=firefox&logoColor=white" alt="Firefox planned">
 </p>
 
-A personal consent control panel that lives in the browser. Not a full ad blocker, not a CMP - it can coexist with existing blockers and consent tools.
+A personal consent control panel that lives in the browser. Purpose-based blocking, tracker detection, and signal management in one place - can coexist with existing blockers and consent tools.
 
+- **Consent banner auto-response**: 31 CMP frameworks answered automatically based on your preferences - no DOM clicks, no waiting for the banner.
+- **Enhanced protection out of the box**: curated blocklists, cosmetic filtering, CNAME detection, URL parameter stripping, and regional filters for 30 languages - enabled by default and kept up to date automatically.
+- **Per-site profiles and purpose toggles**: assign a trust level per site and refine individual purposes across six data-use categories.
 - **Two operating modes**: Blocking enforces purpose-based blocking directly. Monitoring delegates to your existing blocker and adds purpose attribution and signal observability.
-- **Consent banner auto-response**: 31 CMP signatures suppress cookie popups based on your preferences - no DOM clicks, no waiting for the banner.
-- **Per-site profiles and purpose toggles**: assign a trust level per site and refine individual purposes.
 - **Site declarations**: websites can publish `.well-known/protoconsent.json` to declare their data practices. Open protocol with [spec](https://github.com/ProtoConsent/ProtoConsent/blob/main/design/spec/protoconsent-well-known.md), [JSON Schema](https://protoconsent.org/schema/v0.2.json), [validator](https://protoconsent.org/validate.html), and [GitHub Action](https://github.com/ProtoConsent/validate-action).
 - **JavaScript SDK** (MIT) for web pages to query user preferences via `protoconsent.get('analytics')`.
 
@@ -44,12 +45,16 @@ A personal consent control panel that lives in the browser. Not a full ad blocke
 </p>
 
 <p align="center">
-  <a href="https://microsoftedge.microsoft.com/addons/detail/protoconsent/djghmcahfjgmeiocpgkdgengofconfoo"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/microsoft-edge-add-ons-badge.png" alt="Get it from Microsoft Edge" height="56"></a>
+  <a href="https://chromewebstore.google.com/detail/protoconsent/dkcdkdcclhofocmkecccmikkfmfgfdlb"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/chrome-badge.png" alt="Available in the Chrome Web Store" height="56"></a>
   &nbsp;
-  <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/chrome.svg" alt="Chrome" height="18"> <em>Chrome Web Store - in review</em>
+  <a href="https://microsoftedge.microsoft.com/addons/detail/protoconsent/djghmcahfjgmeiocpgkdgengofconfoo"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/microsoft-edge-add-ons-badge.png" alt="Get it from Microsoft Edge" height="56"></a>
+</p>
+<p align="center">
+  <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/brave.png" alt="Brave" height="28"> <em>via Chrome Web Store</em>
   &nbsp;&nbsp;
   <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/opera.svg" alt="Opera" height="18"> <em>Opera Addons - in review</em>
 </p>
+<p align="center"><em>Also works on Vivaldi, Arc, and any Chromium-based browser.</em></p>
 
 ---
 
