@@ -31,10 +31,10 @@ No central server, no tracking, no sharing of personal data.
 
 A personal consent control panel that lives in the browser. Purpose-based blocking, tracker detection, and signal management in one place - can coexist with existing blockers and consent tools.
 
-- **Consent banner auto-response**: 31 CMP frameworks answered automatically based on your preferences - no DOM clicks, no waiting for the banner.
-- **Enhanced protection out of the box**: curated blocklists, cosmetic filtering, CNAME detection, URL parameter stripping, and regional filters for 30 languages - enabled by default and kept up to date automatically.
 - **Per-site profiles and purpose toggles**: assign a trust level per site and refine individual purposes across six data-use categories.
+- **Enhanced protection out of the box**: curated blocklists, cosmetic filtering, CNAME detection, URL parameter stripping, and regional filters for 30 languages - enabled by default and kept up to date automatically.
 - **Two operating modes**: Blocking enforces purpose-based blocking directly. Monitoring delegates to your existing blocker and adds purpose attribution and signal observability.
+- **Consent banner auto-response**: 31 CMP frameworks answered automatically based on your preferences - no DOM clicks, no waiting for the banner.
 - **Site declarations**: websites can publish `.well-known/protoconsent.json` to declare their data practices. Open protocol with [spec](https://github.com/ProtoConsent/ProtoConsent/blob/main/design/spec/protoconsent-well-known.md), [JSON Schema](https://protoconsent.org/schema/v0.2.json), [validator](https://protoconsent.org/validate.html), and [GitHub Action](https://github.com/ProtoConsent/validate-action).
 - **JavaScript SDK** (MIT) for web pages to query user preferences via `protoconsent.get('analytics')`.
 
