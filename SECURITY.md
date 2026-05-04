@@ -9,7 +9,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in ProtoConsent, please report it privately via email to **contact@protoconsent.org**.
+Report security vulnerabilities through [GitHub Security Advisories](https://github.com/ProtoConsent/ProtoConsent/security/advisories/new) or privately via email to **contact@protoconsent.org**.
 
 Do not open a public GitHub issue for security vulnerabilities.
 
