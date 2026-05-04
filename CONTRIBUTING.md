@@ -32,6 +32,6 @@ Do **not** open a public issue. See [SECURITY.md](SECURITY.md) for reporting ins
 3. Keep changes focused - one fix or feature per pull request.
 4. Follow the existing code style.
 
-## Licence
+## License
 
 By contributing, you agree that your contributions will be licensed under the same licence as the project: [GPL-3.0-or-later](https://github.com/ProtoConsent/ProtoConsent/blob/main/LICENSE), [MIT](https://github.com/ProtoConsent/ProtoConsent/blob/main/sdk/LICENSE) for the browser extension SDK.
