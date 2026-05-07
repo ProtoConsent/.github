@@ -23,7 +23,7 @@ No central server, no tracking, no sharing of personal data.
 ### Browser extension
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.7.5-blue" alt="version 0.7.5">
+  <img src="https://img.shields.io/badge/version-0.7.6-blue" alt="version 0.7.6">
   <img src="https://img.shields.io/github/license/ProtoConsent/ProtoConsent" alt="GPL-3.0+">
   <img src="https://img.shields.io/badge/manifest-v3-green" alt="Manifest V3">
   <img src="https://img.shields.io/badge/chromium-supported-brightgreen?logo=googlechrome&logoColor=white" alt="Chromium">
