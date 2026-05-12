@@ -27,7 +27,7 @@ No central server, no tracking, no sharing of personal data.
   <img src="https://img.shields.io/github/license/ProtoConsent/ProtoConsent" alt="GPL-3.0+">
   <img src="https://img.shields.io/badge/manifest-v3-green" alt="Manifest V3">
   <img src="https://img.shields.io/badge/chromium-supported-brightgreen?logo=googlechrome&logoColor=white" alt="Chromium">
-  <img src="https://img.shields.io/badge/firefox-in_review-orange?logo=firefox&logoColor=white" alt="Firefox in review">
+  <a href="https://addons.mozilla.org/addon/protoconsent/"><img src="https://img.shields.io/badge/firefox-available-brightgreen?logo=firefox&logoColor=white" alt="Firefox available"></a>
 </p>
 
 A personal consent control panel that lives in the browser. Purpose-based blocking, tracker detection, and signal management in one place - can coexist with existing blockers and consent tools.
@@ -46,14 +46,14 @@ A personal consent control panel that lives in the browser. Purpose-based blocki
 </p>
 
 <p align="center">
-  <a href="https://chromewebstore.google.com/detail/protoconsent/dkcdkdcclhofocmkecccmikkfmfgfdlb"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/chrome-badge.png" alt="Available in the Chrome Web Store" height="56"></a>
+  <a href="https://chromewebstore.google.com/detail/protoconsent/dkcdkdcclhofocmkecccmikkfmfgfdlb"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/chrome-badge.png" alt="ProtoConsent available in the Chrome Web Store" height="56"></a>
   &nbsp;
-  <a href="https://microsoftedge.microsoft.com/addons/detail/protoconsent/djghmcahfjgmeiocpgkdgengofconfoo"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/edge-addon.png" alt="Get it from Microsoft Edge" height="56"></a>
+  <a href="https://addons.mozilla.org/addon/protoconsent/"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/firefox-addon.svg" alt="ProtoConsent available on Firefox Add-ons" height="56"></a>
+  &nbsp;
+  <a href="https://microsoftedge.microsoft.com/addons/detail/protoconsent/djghmcahfjgmeiocpgkdgengofconfoo"><img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/edge-addon.png" alt="ProtoConsent available in Microsoft Edge Add-ons" height="56"></a>
 </p>
 <p align="center">
   <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/brave.svg" alt="Brave" height="28"> <em>Brave via Chrome Web Store</em>
-  &nbsp;&nbsp;
-  <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/firefox-logo.svg" alt="Firefox" height="28"> <em>Mozilla Firefox - in review</em>
   &nbsp;&nbsp;
   <img src="https://github.com/ProtoConsent/ProtoConsent/blob/main/design/assets/icons/opera.svg" alt="Opera" height="18"> <em>Opera Addons - in review</em>
 </p>
